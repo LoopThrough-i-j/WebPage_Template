@@ -84,7 +84,7 @@ head ul{
         right: 0px;
         height : 50vh;
         top: 10vh;
-        /*background: linear-gradient(90deg,#99b3ff,#668cff);*/
+        background: linear-gradient(90deg,#99b3ff,#668cff);
         display: flex;
         flex-direction: column;
         align-items: left;
@@ -104,7 +104,7 @@ head ul{
         right: 0px;
         height : 50vh;
         top: 10vh;
-        /*background: linear-gradient(90deg,#99b3ff,#668cff);*/
+        background: linear-gradient(90deg,#99b3ff,#668cff);
         display: flex;
         flex-direction: column;
         align-items: left;
@@ -140,15 +140,18 @@ section.slider,.slider ul,.slider ul li{
 
 .img1{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image1.jpg");
-    background-size: 100% 100%;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
 }
 .img2{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image2.jpg");
-    background-size: 100% 100%;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
 }
 .img3{
     background-image: linear-gradient(rgba(0, 0, 35, 0.2),rgba(0,0,35,.8)),url("../images/image3.jpg");
-    background-size: 100% 100%;
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
 }
 section ul li i{
     border: .5vh;
