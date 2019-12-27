@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: rgba(179, 198, 255,1);
+    background-color: rgba(178, 198, 255,1);
     background: linear-gradient(90deg,#ffffff,#ccd9ff, #b3c6ff,#99b3ff,#668cff);
     line-height: 8vh;
 }
@@ -140,17 +140,17 @@ section.slider,.slider ul,.slider ul li{
 
 .img1{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image1.jpg");
-    background-size: 100% 500px;
+    background-size: 100% 110vh;
     background-repeat: no-repeat;
 }
 .img2{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image2.jpg");
-    background-size: 100% 500px;
+    background-size: 100% 110vh;
     background-repeat: no-repeat;
 }
 .img3{
     background-image: linear-gradient(rgba(0, 0, 35, 0.2),rgba(0,0,35,.8)),url("../images/image3.jpg");
-    background-size: 100% 500px;
+    background-size: 100% 110vh;
     background-repeat: no-repeat;
 }
 section ul li i{
