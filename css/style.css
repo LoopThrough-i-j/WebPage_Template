@@ -90,7 +90,7 @@ head ul{
         align-items: left;
         z-index: 1;
         transform: translateY(-130%);
-        transition: transform 1.0s ease-in;
+        transition: transform 0.8s ease-in;
     }
     .micon{
         visibility: visible;
