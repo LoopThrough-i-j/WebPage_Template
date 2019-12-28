@@ -24,6 +24,20 @@ jQuery(document).ready(function(){
             pageAnchorBuilder:false
         }
     });
+    $(window).scroll(function(){
+        var top= $(window).scrollTop();
+        if(top > 60)
+        {
+            $("header").addClass("navback");
+        }
+        else
+        {
+            if ($("header").hasClass("navback"))
+            {
+                $("header").removeClass("navback");
+            }
+        }
+    });
 });
 
 const navSlide = () =>{
@@ -31,3 +45,4 @@ const navSlide = () =>{
     //console.log(menu)
     menu[0].classList.toggle("nav-active");
 };
+

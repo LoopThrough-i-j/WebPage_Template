@@ -3,13 +3,22 @@
     margin: 0vh;
     padding: 0vh;
 }
-
-header{
-    background-color: rgba(178, 198, 255,1);
-    background: linear-gradient(90deg,#ffffff,#ccd9ff, #b3c6ff,#99b3ff,#668cff);
-    line-height: 8vh;
+body{
+    height: 200vh;
 }
-
+header{
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    line-height: 8vh;
+    z-index: 1;
+    width: 100%;
+    
+}
+.navback{
+    background-color: rgba(2255,255,255,0);
+    background: linear-gradient(90deg,#ffffff,#ccd9ff, #b3c6ff,#99b3ff,#668cff);
+    transition: transform .5s ease-in;
+}
 header .head {
     margin-right: 5vh;
     margin-left: 5vh;
@@ -115,8 +124,10 @@ head ul{
 
 
 
-
-
+.slider{
+    position: relative;
+    top: 0vh;
+}
 
 
 
@@ -132,7 +143,7 @@ section.slider,.slider ul,.slider ul li{
     top: 0vh;
 }
 .slider .bodyBlock{
-    margin-top: 10%;
+    margin-top: 20%;
 }
 .h2{
     font-weight: bold;
