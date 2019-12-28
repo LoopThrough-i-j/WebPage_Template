@@ -13,7 +13,7 @@ header{
     position: fixed;
     line-height: 8vh;
     z-index: 1;
-    width: 100%;
+    width: 100% ;
     transition: all 1s ease-in-out;
 }
 .navback{
@@ -154,17 +154,17 @@ section.slider,.slider ul,.slider ul li{
 
 .img1{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image1.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .img2{
     background-image: linear-gradient(rgba(0,0,35,.2),rgba(0,0,35,.8)),url("../images/image2.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .img3{
     background-image: linear-gradient(rgba(0, 0, 35, 0.2),rgba(0,0,35,.8)),url("../images/image3.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 section.slider ul li i{
