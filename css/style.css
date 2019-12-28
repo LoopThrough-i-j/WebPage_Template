@@ -7,17 +7,20 @@ body{
     height: 200vh;
 }
 header{
-    background-color: rgba(0,0,0,0);
+    opacity: 0.8;
+    background-color: none;
+    background: none;
     position: fixed;
     line-height: 8vh;
     z-index: 1;
     width: 100%;
-    
+    transition: all 1s ease-in-out;
 }
 .navback{
-    background-color: rgba(2255,255,255,0);
+    opacity: 1;
+    background-color: aliceblue;
     background: linear-gradient(90deg,#ffffff,#ccd9ff, #b3c6ff,#99b3ff,#668cff);
-    transition: transform .5s ease-in;
+    transition: all 1s ease-in-out;
 }
 header .head {
     margin-right: 5vh;
