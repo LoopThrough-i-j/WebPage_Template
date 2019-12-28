@@ -26,7 +26,7 @@ jQuery(document).ready(function(){
     });
     $(window).scroll(function(){
         var top= $(window).scrollTop();
-        if(top > 60)
+        if(top > 120)
         {
             $("header").addClass("navback");
         }
