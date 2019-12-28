@@ -135,7 +135,7 @@ head ul{
 
 
 section.slider,.slider ul,.slider ul li{
-    height: 100vh;
+    height: 130vh;
     width: 100%;
     color: white;
     text-align: center;
@@ -154,17 +154,17 @@ section.slider,.slider ul,.slider ul li{
 
 .img1{
     background-image: url("../images/image1.jpg");
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 .img2{
     background-image:url("../images/image2.jpg");
-    background-size: 100% 100vh;    
+    background-size: 100% 100%;    
     background-repeat: no-repeat;
 }
 .img3{
     background-image:url("../images/image3.jpg");
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 section.slider ul li i{
