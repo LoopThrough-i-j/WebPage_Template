@@ -4,7 +4,7 @@
     padding: 0vh;
 }
 body{
-    height: 100vh;
+    height: 300vh;
 }
 header{
     opacity: 0.8;
@@ -135,7 +135,7 @@ head ul{
 
 
 section.slider,.slider ul,.slider ul li{
-    height: 180vh;
+    height: 300vh;
     width: 100%;
     color: white;
     text-align: center;
