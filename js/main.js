@@ -3,7 +3,7 @@ jQuery(document).ready(function(){
     "use-strict";
     $("#slider-carousel").carouFredSel({
         responsive:true,
-        height:'100%',
+        height:'80vh',
         width:'100%',
         circular: true,
         scroll:{
