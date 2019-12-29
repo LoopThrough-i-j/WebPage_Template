@@ -7,14 +7,14 @@ body{
     height: 1000px;
 }
 header{
-    opacity: 0.8;
+    opacity: 1;
     background-color: none;
     background: none;
     position: fixed;
     line-height: 30px;
     z-index: 1;
     width: 100% ;
-    transition: all 1s ease-in-out;
+    transition: all 3s ease-in-out;
 }
 .navback{
     opacity: 1;
@@ -113,6 +113,7 @@ head ul{
         opacity: 1;
     }
     .nav-active{
+        opacity: 2;
         transform: translateY(0%);
     }
 }
