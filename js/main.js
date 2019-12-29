@@ -39,7 +39,6 @@ jQuery(document).ready(function(){
         }
     });
 });
-
 const navSlide = () =>{
     let menu =document.getElementsByClassName('nav-links');
     //console.log(menu)
