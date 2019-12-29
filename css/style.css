@@ -54,7 +54,7 @@ header nav{
 
 header nav ul li a{
     font-size: 20px;
-    font-weight: 200;
+    font-weight: bold;
     color: aliceblue;
     transition: all .7s ease-in-out;
 }
