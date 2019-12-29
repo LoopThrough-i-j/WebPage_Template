@@ -96,12 +96,11 @@ head ul{
         position: absolute;
         right: 0px;
         height : 250px;
-        width: 100%;
         top: 50px;
-        background: linear-gradient(90deg,#ffffff,#ccd9ff, #b3c6ff,#99b3ff,#668cff);
+        background: linear-gradient(90deg,#99b3ff,#668cff);
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
         z-index: 1;
         transform: translateY(-130%);
         transition: transform 0.8s ease-in;
@@ -114,7 +113,7 @@ head ul{
         opacity: 1;
     }
     .nav-active{
-        opacity: 1;
+        opacity: 2;
         transform: translateY(0%);
     }
 }
