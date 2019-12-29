@@ -127,7 +127,7 @@ head ul{
 
 
 section.slider,.slider ul,.slider ul li{
-    height: 100vh;
+    height: 140vh;
     width: 100%;
     color: white;
     text-align: center;
@@ -138,7 +138,7 @@ section.slider,.slider ul,.slider ul li{
     top: 0px;
 }
 .slider .bodyBlock{
-    margin-top: 20%;
+    margin-top: 20vh;
 }
 .h2{
     font-weight: bold;
